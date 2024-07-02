@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ramen Timer</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="element">
+            <div class="count" id="countBox"></div>
+            <button class="btn1" id="start">start</button>
+            <button class="btn2" id="stop">stop</button>
+            <button class="btn3" id="reset">reset</button>
+        </div>
+
+        <div>
+            <div>
+                <input type="checkbox" class="check" id="ramen" name="ramen" checked/>
+                <label for="ramen">Ramen</label>
+            </div>
+
+            <div>
+                <input type="checkbox" class="check" id="tea" name="tea" />
+                <label for="tea">Tea</label>
+            </div>
+
+            <div>
+                <input type="checkbox" class="check" id="egg" name="egg" />
+                <label for="egg">Egg</label>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script type="module" src="js/script2.js"></script>
+</body>
+
+</html>

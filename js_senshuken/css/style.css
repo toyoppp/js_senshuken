@@ -1,0 +1,22 @@
+.container {
+  display: grid;
+  place-content: center;
+  place-items: center;
+  height: 180px;
+}
+
+.timer_label {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  width: 100px;
+  font-size: 20px;
+}
+
+.buttons .field {
+  display: flex;
+}
